@@ -17,7 +17,7 @@ app.get('/employees',(req,res)=>{
 }); 
 
 app.get('/employees/:id',(req,res)=>{
-    const id =req.params.id;
+     const id =req.params.id;
     const employee=employees.find(employee=>employee.employeeId===Number(id));
     if(!employee){
          res.status(404).json({success:false,message:"Employee not found"});

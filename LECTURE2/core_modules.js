@@ -18,7 +18,8 @@ const process=require("process")
 // const filePath=path.join("AIML-G","lecture 5","core_modules.js");
 // console.log(filePath);
 
-// const file="AIML-G/lecture 5/core_modules.js";
+
+// const file="AIML-G/lecture 2/core_modules.js";
 // console.log(path.basename(file)); //file name
 // console.log(path.extname(file)); //.js
 // console.log(path.dirname(file)); //AIML-G/lecture 5
